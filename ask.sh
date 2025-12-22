@@ -14,7 +14,7 @@ fi
 
 RESULT=$(
   printf '{"question": "%s", "threshold": 0.55}' "$1" | \
-  curl "http://localhost:5000/ask" \
+  curl "http://localhost:8080/ask" \
    --location --silent \
    --write-out "%{http_code}" \
    --output "/tmp/ask.json" \

@@ -1,3 +1,10 @@
+#### Environment
+- redis-stack
+```sh
+brew tap redis-stack/redis-stack
+brew install redis-stack
+alias redis="/opt/homebrew/bin/redis-stack-server --requirepass=LOCALDEV"
+```
 
 #### Running:
 ```sh
