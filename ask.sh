@@ -4,11 +4,11 @@
 Please pass in a question in double-quotes."
 if ! command -v jq >/dev/null 2>&1; then
   ERRORS="$ERRORS
-The 'jq' is required to run this script."
+The 'jq' binary is required to run this script."
 fi
 if ! command -v mdcat >/dev/null 2>&1; then
   ERRORS="$ERRORS
-The 'mdcat' is required to run this script."
+The 'mdcat' binary is required to run this script."
 fi
 [ -n "$ERRORS" ] && { printf 'Failed with errors: %s' "$ERRORS" >&2; exit 2; }
 
