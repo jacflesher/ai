@@ -13,7 +13,10 @@ fi
 [ -n "$ERRORS" ] && { printf 'Failed with errors: %s' "$ERRORS" >&2; exit 2; }
 
 RESULT=$(
-  printf '{"question": "%s", "threshold": 0.55}' "$1" | \
+  # printf '{"question": "my name is jay", "session_id": "jacflesher", "threshold": 0.55}' | \
+
+  jq -n --arg q "$1" --arg s "$(whoami)" --argjson t 0.55 \
+  '{question: $q, session_id: $s, threshold: $t}' | \
   curl "http://localhost:8080/ask" \
    --location --silent \
    --write-out "%{http_code}" \
@@ -25,6 +28,7 @@ RESULT=$(
 if [ "$RESULT" -eq 200 ]; then
   jq -r ".answer" < "/tmp/ask.json" > "/tmp/answer.md"
   mdcat "/tmp/answer.md"
+else
+  printf '\nError!!!\n%s\n\n' "$RESULT"
+  cat "/tmp/ask.json"
 fi
-
-
