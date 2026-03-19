@@ -3,7 +3,8 @@
 ```sh
 brew tap redis-stack/redis-stack
 brew install redis-stack
-alias redis="/opt/homebrew/bin/redis-stack-server --requirepass=LOCALDEV"
+alias redis-stack="/opt/homebrew/bin/redis-stack-server /opt/homebrew/etc/redis-stack.conf"
+printf '%s\n' "requirepass LOCALDEV" | sudo tee -a /opt/homebrew/etc/redis-stack.conf
 ```
 
 #### Running:
