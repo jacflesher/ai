@@ -1,0 +1,5 @@
+go mod init ai
+go get github.com/google/generative-ai-go@latest
+go get google.golang.org/api@latest
+go get google.golang.org/genai
+go mod tidy
