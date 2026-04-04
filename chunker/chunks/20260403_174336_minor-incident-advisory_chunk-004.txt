@@ -1,0 +1,11 @@
+## Part 2 Send the Initial Communication
+
+1. __View the incident__ in the `All | Incidents` view and select the 'Default view' view
+    ![Example](default-view.png)
+1. __Enter the location__, such as 'Wagner Place East'
+1. __Enter the region__ (or regions) where the issue is occurring in the space next to the location
+1. __Confirm the service__ is 'Platform', __configuration item__ is either '54514 [SERVERLESS]::DEV' or '54514 [SERVERLESS]::PROD', and __service offering__ is set to 'GCP Foundation'
+1. __Enter the Actual Start__ from the Resolution Information tab
+1. __Update additional comments__ from the Notes tab. This will become the ***initial description*** in the advisory communication. Make sure `Additional comments (Customer visible)` is checked before you select `Post`
+
+    > __Note:__ Make sure the description includes when the next update will be provided.

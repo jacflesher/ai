@@ -20,7 +20,7 @@ func main() {
 	ctx := context.Background()
 	projectID := os.Getenv("GOOGLE_CLOUD_PROJECT") // e.g. "ford-prd-123"
 	daysToLookBack := 1
-	requestsPerSecond := 30.0
+	requestsPerSecond := 15.0
 
 	client, err := logadmin.NewClient(ctx, projectID)
 	if err != nil {

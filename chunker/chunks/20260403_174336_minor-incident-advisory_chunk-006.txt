@@ -1,0 +1,16 @@
+1. __Add__ supervisors and team leads to the CC list
+1. __Update__ the subject to `Serverless Incident Communication: INC######## - Medium - Initial` by adding `Serverless` to the beginning and `- Medium - Initial` to the end
+1. __Click the full screen button__ to view the body of the communication in full screen mode
+1. __Fill out the template__ with any required information that was not pulled from the incident
+1. __Click Send__ to send the communication
+
+___Example: Incident Fields & Selections___
+![Example of Incident Fields](INC.png)
+
+___Example: Incident Communication Plan Selection___
+![Example of ICP Selection](ICP.png)
+
+
+[Back to Top](#serverless-minor-incident-advisory-process) | [Back to Main](README.md)
+
+## Part 3 Send the Update Communication

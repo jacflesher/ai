@@ -1,0 +1,17 @@
+# Serverless Minor Incident Advisory Process
+This process is to be used when there is an issue impacting multiple applications in a production or non-production environment and it is deemed to have medium or low impact
+
+To create a minor incident advisory, the following steps should be performed.
+
+## Table of Contents
+* [Part 1 Communication Prep](#part-1-communication-prep)
+* [Part 2 Send the Initial Communication](#part-2-send-the-initial-communication)
+* [Part 3 Send the Update Communication](#part-3-send-the-update-communication)
+* [Part 4 Send the Final Communication](#part-4-send-the-final-communication)
+
+[Back to Top](#serverless-minor-incident-advisory-process) | [Back to Main](README.md)
+
+## Part 1 Communication Prep
+1. __Prepare a problem statement__ to use in the advisory communication
+
+    > __Example:__ Applications developers are unable to deploy code in XXX foundation. Support is investigating.

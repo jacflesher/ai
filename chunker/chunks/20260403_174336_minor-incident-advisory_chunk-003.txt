@@ -1,0 +1,23 @@
+1. __Create an incident__ to capture the issue in our words. This incident will be used for the advisory communications.
+
+   ## Two ways to create a new incident
+
+   ### Option: 1
+
+   Select "Service Operations" as workspace and choose the Incident list that you have created and select "New" button at right hand side.
+
+   ![Example](INC1.png)
+
+   ### Option: 2
+
+   Under "All" choose "Incidents" under "Self-service" and click on "New" to create an incident.
+
+   ![Example](INC2.png)
+
+   ![Example](INC3.png)
+
+1. __Make sure__ the incident is assigned and in progress
+
+[Back to Top](#serverless-minor-incident-advisory-process) | [Back to Main](README.md)
+
+## Part 2 Send the Initial Communication

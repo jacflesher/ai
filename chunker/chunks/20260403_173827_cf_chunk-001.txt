@@ -1,0 +1,20 @@
+![Flow Chart](images/cflat.png)
+
+
+- There are queries set based on which you can filter it based on Project-id, GCP region. It will show when and at what time the latency was caused. You will get the exact time,date and for how long latency was there.
+
+- You can split it and then click on "Run Query"
+
+- It will display the projects in which latency was caused along with the region.
+
+***Note: If Latency goes above 120 Seconds and if the latency continues for more than 5 minutes it will generate an alert.***
+
+## 2. Error Class ##
+
+-  Error is a  condition when the receiver's information does not match the sender's information. There are many error class, in our dashboards we have 4xx and 5xx tile configured. This tile is useful to provide the information if the error is caused by app team or something is wrong with the server.
+
+![Flow Chart](images/cf4xx.png)
+
+***Note: If Error Count goes above 200 count , it will generate an alert.***
+
+### a. 4XX ###

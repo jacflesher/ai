@@ -1,0 +1,5 @@
+Avoid drawing conclusions of any type or stating what is assumed to be the real issue. The problem statement is for the purpose of informing the community that there is some perceived disruption of expected service levels. Information about troubleshooting should be introduced through the advisory updates and final update will typically provide or refer to a root cause analysis.
+    The purpose of initial problem statement is to inform application teams that we are aware of an issue that may impact their applications, that we are actively investigating that issue, and what actions they may need to perform as a result of what is happening.
+2. __Prepare a business impact statement__ to use in the advisory communication
+
+    This is a statement of what the impact is to a) end users and/or b) application developers. These statements should be concluded in terms of when they started and when they finished (e.g. from HH:MM EST on mm/dd until HH:MM EST on mm/dd).

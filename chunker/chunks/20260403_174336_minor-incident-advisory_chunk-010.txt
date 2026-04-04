@@ -1,0 +1,10 @@
+> __Note:__ Make sure the description includes when the next update will be provided.
+
+1. __Go to the Incident Communication Plans__ tab at the bottom of the page
+    > Note: You should always save the incident before you go to the Incident Communication Plan tab
+
+1. __Select the Ford Incident Communication Plan__ in the list of available templates
+1. __Select the Communicate tab__ next to notes and then click `Compose` under `Actions`
+1. __Add__ the appropriate bulkmail lists in the `To` field, leaving the pre-populated "INC_COMM_${REGION}@ford.com bulkmail(s) in place:
+
+    Bulkmail: gcp_serverless_service_subscribers@ford.com; gcp_informational_outage_advisories@ford.com

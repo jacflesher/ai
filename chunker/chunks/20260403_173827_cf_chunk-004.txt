@@ -1,0 +1,9 @@
+## Saturation Response Size ##
+
+- Saturation is high-level overview of response sizes. 
+
+- Saturation will show how full your service is. It will generate an alert if the count goes above the threshold value.
+
+![Flow Chart](images/cfsaturation.png)
+
+***Note: If Saturation goes below 2048 bytes it will generate an alert.***

@@ -1,0 +1,14 @@
+1. __Select the Ford Incident Communication Plan__ in the list of available templates
+1. __Select the Communicate tab__ next to notes and then click `Compose` under `Actions`
+1. __Add__ the appropriate bulkmail lists in the `To` field, leaving the pre-populated "INC_COMM_${REGION}@ford.com bulkmail(s) in place:
+
+    Bulkmail: gcp_serverless_service_subscribers@ford.com; gcp_informational_outage_advisories@ford.com
+
+1. __Add__ supervisors and team leads to the CC list
+1. __Update__ the subject to `Serverless Incident Communication: INC######## - Medium - Update` by adding `Serverless` to the beginning and `- Medium - Update` to the end
+1. __Click the full screen button__ to view the body of the communication in full screen mode
+1. __Fill out the template__ with any required information that was not pulled from the incident.
+
+    > _Hint: There should be no need for this if you followed the documented process._
+
+1. __Click Send__ to send the communication

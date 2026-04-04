@@ -42,7 +42,14 @@ r = redis.Redis(host=REDIS_HOST, port=REDIS_PORT, password=REDIS_PASS, decode_re
 
 # Embedding Model
 print("Loading SentenceTransformer model...")
-embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
+VECTOR_DIM = int(os.getenv("VECTOR_DIM", "384"))
+
+if VECTOR_DIM == 768:
+    model_name = 'all-mpnet-base-v2'
+else:
+    model_name = 'all-MiniLM-L6-v2'
+    
+embedding_model = SentenceTransformer(model_name)
 print("--- Services Ready ---")
 
 # --- 3. The Controller Endpoint ---

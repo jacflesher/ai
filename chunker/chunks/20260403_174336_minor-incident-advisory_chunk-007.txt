@@ -1,0 +1,12 @@
+## Part 3 Send the Update Communication
+
+1. __Open the incident__ in the `All | Incidents` view and select the 'Default view' view
+1. __Make sure__ you are viewing the incident and not in the Incident Communication Plan.
+1. __Update additional comments__ from the Notes tab. This will become the ***updated description*** in the advisory communication.
+
+    > __Note:__ Make sure `Additional comments (Customer visible)` is visible (work notes is unchecked) before you select `Post`
+
+    > __Note:__ Make sure the description includes when the next update will be provided.
+
+1. __Go to the Incident Communication Plans__ tab at the bottom of the page
+    > Note: You should always save the incident before you go to the Incident Communication Plan tab

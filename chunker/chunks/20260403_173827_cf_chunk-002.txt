@@ -1,0 +1,26 @@
+***Note: If Error Count goes above 200 count , it will generate an alert.***
+
+### a. 4XX ###
+
+- 4XX error indicates that the requested resource or web page could not be found on the server. Other examples of 4xx errors include “401 Unauthorized”, “403 Forbidden”, and “400 Bad Request” and many more. 
+
+- 4XX tile is useful to keep eye on the applications and to analyzed the issues which will cause due to errors in application.
+
+
+- Click on "Configure Data in Explorer".
+
+- Filter it by "response_code", it will display the projects which has caused the error which you have provided in response code.
+
+- Select "gcp_project_id"
+
+- X-axis represents the "Threshold".
+
+- Y-axis represents the "Request Count".
+
+- Results will get displayed based on the filters selected by you.
+
+![Flow Chart](images/cf4xx5xx.png)
+
+### b. 5xx ###
+
+- 5XX error indicates server related or API is down,indicates in which project the service is down, service unavailability and many more.

@@ -1,0 +1,31 @@
+- 5XX tile is useful to detect issues which will get cause due to timeout, service not available etc.
+
+
+- Filter it by "response_code", it will display the projects which has caused the error which you have provided in response code.
+
+- Select "gcp_project_id"
+
+- X-axis  represent the "Threshold".
+
+- Y-axis  represent the "Request Count".
+
+- Results will get displayed based on the filters selected by you.
+
+## Traffic Execution Count ##
+
+- Execution count is the number of time a request which is called. This tile will show how many times end-point of Cloud Function is being called.
+
+- This tile will show the traffic which will generate when a particular end-point is being triggered.
+
+![Flow Chart](images/cfexecution.png)
+
+- X-axis  represent the "Threshold".
+
+- Y-axis represents the "Request Count".
+
+***Note: If the traffic request count goes below 1000 KB, it will generate an alert.***
+
+
+## Saturation Response Size ##
+
+- Saturation is high-level overview of response sizes.

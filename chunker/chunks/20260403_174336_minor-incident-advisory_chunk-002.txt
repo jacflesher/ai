@@ -1,0 +1,13 @@
+> __Example 1:__ Users are not able to deploy applications in US Central region from 13:30 EST on 09/19 until TBD
+
+    > __Example 2:__ Application latency on US Central region from 13:25 EST on 09/19 until 14:45 EST on 09/19.
+
+1. __Prepare an actions required statement__ to use in the advisory communication
+
+    Consider if you want applications to submit an incident so they can be included in follow up once the issue is believed to be resolved. Sometimes it may be necessary to convey known work arounds, but the usual assumption is that it is not known for the initial advisory notification.
+
+    > __Example 1:__ None. Information only
+
+    > __Example 2:__ Please submit a Serverless incident if you need to have the Serverless service team follow up with you after the problem is resolved
+
+    > __Example 3:__ Application teams are asked to fail their applications over to other active region if they are experiencing a disruption of service.

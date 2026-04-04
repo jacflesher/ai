@@ -1,0 +1,13 @@
+1. __Add__ supervisors and team leads to the CC list
+1. __Update__ the subject to `Serverless Incident Communication: INC######## - Medium - Final` by adding `Serverless` to the beginning and `- Medium - Final` to the end
+1. __Click the full screen button__ to view the body of the communication in full screen mode
+1. __Fill out the template__ with any required information that was not pulled from the incident.
+
+    > _Hint: There should be no need for this if you followed the documented process._
+
+1. __Click Send__ to send the communication
+
+Refer:  [Demo Video - Incident Advisory Creating Process Using ServiceNow for GCP Serverless Team
+](https://videosat.ford.com/#/videos/5779e314-1eda-46c0-960a-d0d61ebafa27)
+
+[Back to Top](#serverless-minor-incident-advisory-process) | [Back to Main](README.md)

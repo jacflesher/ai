@@ -1,0 +1,24 @@
+## SRE Cloud Functions ##
+
+In Ford SRE dashboard of Cloud Functions following "Golden Signals":
+
+**1**. **Latency**
+**2**. **Error Class: 4xx, 5xx**
+**3**. **Traffic request count**
+**4**. **Container memory utilization**
+
+## 1. Latency ##
+
+- Latency is the delay in network communication for transferring the data. The more the latency the more delay user will face to get the output. In Ford we use GCP (Google Cloud Platform) if there is an issue from Google side or Ford side internet it will create latency. 
+
+- Above image will show you the the latencies caused in Cloud Run.
+
+- X-axis represents "Date".
+
+- Y-axis represents "Time" (for how long the latency was there) .
+
+- Latency depends on the bandwidth of the Ford and Google Network.
+
+- For more information you can click on right side drop down and then click on "Configure data in explorer".
+
+![Flow Chart](images/cflat.png)

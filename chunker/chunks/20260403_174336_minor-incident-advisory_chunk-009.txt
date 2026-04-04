@@ -1,0 +1,14 @@
+1. __Click Send__ to send the communication
+
+[Back to Top](#serverless-minor-incident-advisory-process) | [Back to Main](README.md)
+
+## Part 4 Send the Final Communication
+
+1. __Open the incident__ in the `All | Incidents` view and select the 'Default view' view
+1. __Make sure__ you are viewing the incident and not in the Incident Communication Plan.
+1. __Enter the Actual End__ from the Resolution Information tab. This would be a good time to enter the __resolution code__ and __resolution notes__ as well. 
+1. __Update additional comments__ from the Notes tab. This will become the ***updated description*** in the advisory communication.
+
+    > __Note:__ Make sure `Additional comments (Customer visible)` is visible (work notes is unchecked) before you select `Post`
+
+    > __Note:__ Make sure the description includes when the next update will be provided.
